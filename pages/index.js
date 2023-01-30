@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Header />
-        <div>body</div>
+        <div></div>
       </main>
     </>
   );
