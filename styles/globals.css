@@ -73,7 +73,7 @@ body {
 body {
   color: var(--almost-white);
   background-color: var(--site-background);
-  background-image: url("../public/nami.png");
+  background-image: url("/nami.png");
   /* background: url(../public/nami.png), linear-gradient(0deg, var(--site-background), var(--site-background)); */
   background-blend-mode: color-burn;
 }
