@@ -1,0 +1,48 @@
+.header {
+  border-radius: 30px;
+  padding: 15px;
+  border: 2px solid var(--almost-white);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--green-bold);
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.name {
+  background-color: var(--blue);
+  padding: 15px;
+  margin: 0 0 5px;
+  border-radius: 30px;
+  max-width: fit-content;
+  position: absolute;
+  top: -30px;
+  border: 1px solid var(--almost-white);
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.img {
+  max-width: 45%;
+  height: auto;
+  border-radius: 30px;
+  margin: 20px;
+  box-shadow: -3px 3px 17px 3px rgb(0 0 0 / 30%);
+}
+.about {
+  text-align: center;
+  max-width: 485px;
+  margin: 0 auto;
+  /* margin: 40px; */
+}
+
+.about p {
+  margin: 0 0 25px;
+}
+.title {
+  display: block;
+  font-size: 26px;
+  font-weight: 600;
+}
