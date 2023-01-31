@@ -7,10 +7,22 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.name}> Jeff Kealy.</div>
       <div className={styles.content}>
-        <Image className={styles.img} src={MeOilPaint} />
+        <div className={styles.imgContainer}>
+          <Image className={styles.img} src={MeOilPaint} />
+          <span className={styles.imJeff}>
+            I'm Jeff. <br></br>I'm a software developer and designer from Minneapolis, MN.
+            <br /> <br />
+            I'm a learner, a doer, and have a strong connection with developing community.
+          </span>
+        </div>
+
         <div className={styles.about}>
           <p>
-            I'm Jeff. <br></br>I'm a software developer and designer from Minneapolis, MN.
+            <span className={styles.imJeff}>
+              I'm Jeff. <br></br>I'm a software developer and designer from Minneapolis, MN.
+              <br /> <br />
+              I'm a learner, a doer, and have a strong connection with developing community.
+            </span>
           </p>
 
           <p>
@@ -22,7 +34,6 @@ const Header = () => {
             <span className={styles.title}>Design</span>
             Adobe Photoshop : Adobe Illustrator : Adobe Premiere Pro : Adobe After Effects : Adobe Animate : Adobe Audition : FL Studio
           </p>
-          <p>I'm a learner, a doer, and have a strong connection with developing community.</p>
         </div>
       </div>
     </div>

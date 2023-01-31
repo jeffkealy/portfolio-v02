@@ -24,12 +24,18 @@
   display: flex;
   align-items: center;
 }
-.img {
+.imgContainer {
   max-width: 45%;
+  margin: 20px;
+}
+.img {
+  max-width: 100%;
   height: auto;
   border-radius: 30px;
-  margin: 20px;
   box-shadow: -3px 3px 17px 3px rgb(0 0 0 / 30%);
+}
+.imgContainer .imJeff {
+  display: none;
 }
 .about {
   text-align: center;
@@ -37,7 +43,9 @@
   margin: 0 auto;
   /* margin: 40px; */
 }
-
+.about .imJeff {
+  display: block;
+}
 .about p {
   margin: 0 0 25px;
 }
@@ -45,4 +53,35 @@
   display: block;
   font-size: 26px;
   font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .imgContainer {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .img {
+    max-width: 45%;
+  }
+
+  .imgContainer .imJeff {
+    display: block;
+    text-align: center;
+  }
+  .about .imJeff {
+    display: none;
+  }
+}
+@media screen and (max-width: 490px) {
+  .content {
+    font-size: 14px;
+  }
+  .imgContainer {
+    margin: 20px 0;
+  }
 }

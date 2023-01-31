@@ -237,6 +237,11 @@
     z-index: 1;
   }
 }
+@media screen and (max-width: 490px) {
+  .main {
+    padding: 50px 15px 30px;
+  }
+}
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
